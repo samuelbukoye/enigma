@@ -21,8 +21,8 @@ h2{
 
 h2,h3{
     font-family: algerian regular;
-    margin-top: 20px;
-    margin-bottom : 20px;
+    padding-top: 20px;
+    padding-bottom : 20px;
     text-align: center;
 }
 
@@ -32,15 +32,13 @@ h2~p{
     text-align: center;
 }
 
-article{
-    background-color: rgba(230, 230, 250);
-}
 
 
 article p{
     padding: 10 20px;
     
 }
+
 
 .about article img{
     height: 200px;
@@ -57,4 +55,21 @@ article p{
 
 .contact form{
     margin-top: 40px;
+}
+
+main,footer{
+    background-color: #040405cc;
+    color: blanchedalmond;
+}
+
+footer{
+    border-top: 5px dashed grey;
+}
+
+footer .copyright{
+    margin-top: 20px;
+}
+
+footer .copyright p{
+    text-align: center;
 }
