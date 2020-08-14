@@ -1,75 +1,166 @@
+@font-face {
+    font-family: 'SEGA LOGO FONT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SEGA LOGO FONT'), url('./SEGA.woff') format('woff');
+}
 body{
+    min-width: 250px;
+    padding-top: 55px;
     font-family: 'Mulish', sans-serif;
 }
-
-header{
-    height: 100%;
-    background-image: url("dawn_of_the_planet_of_the_apes_2014_film-wallpaper-1366x768.jpg");
-    background-attachment: fixed;
+header[class="container-fluid"]{
+    background: url(/images/bg-img/header.jpg);
+    min-height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-right:0px;
+    padding-left:0px;
 }
-
-p{
-    text-align: justify;
-}
-
 h2{
+    padding-top: 60px;
     font-weight: 600;
+    border-bottom: 2px solid grey;
 }
-
-h2,h3{
-    font-family: algerian regular;
+h3{
     padding-top: 20px;
+}
+h1,h2,h3{
+    font-family: 'Contrail One', cursive;
     padding-bottom : 20px;
     text-align: center;
 }
-
-
+.company-info{
+    margin-left: auto;   
+    margin-right: auto;   
+     max-width: 1000px;
+     padding-top: 100px;
+     color: whitesmoke;
+     font-size: 150%;
+     text-align: center;
+ }
+p{
+    text-align: justify;
+}
 h2~p{
     padding:10 30 20 30;
     text-align: center;
 }
-
-
-
+.btn{
+    color: #fff;
+    background-color: rgb(29, 29, 39);
+    border-color: #bed2e4;
+    width: 160px;
+    height: 50px;
+    margin: 20px;
+}
+nav~div{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.5);
+}
+.partners,.contact{
+    padding-bottom: 50px;
+}
+.navbar-dark{
+    background-color: rgb(1, 1, 2);
+}
+.navbar-brand{
+    font-family: 'SEGA LOGO FONT','Algerian regular','Contrail One', cursive;
+    font-weight: 200;
+    color: #b6b1e4;
+}
+@media (max-width:768px){
+    .company-info{
+        padding-top:10px;
+        font-size : 100%;
+    }
+    h2{
+        padding-top: 20px;
+    }
+    .btn{
+        color: #fff;
+        background-color: #6e677b;
+        border-color: #bed2e4;
+        width: 120px;
+        height: 40px;
+        padding: 5px;
+        margin: 5px;
+    }
+}
+main,footer{
+    background-color: rgb(1, 1, 2);
+    color: blanchedalmond;
+}
+.parallax{
+    min-height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media(max-width:992px){
+    .parallax{
+        background-attachment: scroll;
+    }
+}
+.bg-img2{
+    min-height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/images/bg-img/bg-img2.jpg");
+}
+.half-transparent{
+    background-color: rgba(1, 1, 2, 0.9);
+}
+.bg-img3{
+    background-image: url("/images/bg-img/bg-img3.jpg");
+}
+.bg-img4{
+    background-image: url("/images/bg-img/bg-img4.jpg");
+}
 article p{
     padding: 10 20px;
     
 }
-
-
-.about article img{
+.about article img,.services img{
     height: 200px;
     width: 100%;
 }
-
+.partners img{
+    padding: 20px;
+    width:300px;
+    height:150px;
+}
 .testimonials p{
     font-style: italic;
 }
-
 .contact section,.contact p{
     text-align: center;
 }
-
 .contact form{
     margin-top: 40px;
 }
-
-main,footer{
-    background-color: #040405cc;
-    color: blanchedalmond;
-}
-
 footer{
     border-top: 5px dashed grey;
 }
-
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    padding-bottom: 5px;
+    margin-top: 5px;
+    border-bottom: 3px solid rgba(128, 128, 128,0.2);
+}
+footer ul a{
+    color: inherit;
+}
 footer .copyright{
     margin-top: 20px;
 }
-
 footer .copyright p{
     text-align: center;
 }

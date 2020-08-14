@@ -2,107 +2,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap.css">
-    
     <link rel="stylesheet" href="index.css">
     <title>Enigma</title>
 </head>
 <body>
-    <header class="container-fluid">
+    <header class="container-fluid" id="home">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <a class="navbar-brand" href="#">ENIGMA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#partners">Partners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+            <section class="container company-info">
+                <h1>Welcome to Enigma</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum facilis quia harum officiis ipsum dolorum, distinctio vel earum voluptatum sapiente, necessitatibus provident ab laudantium similique dolorem commodi accusantium repellat sunt.</p>
+                <div>
+                    <button type="button" class="btn">Register Now</button>
+                    <button type="button" class="btn">login</button>
+                </div>
+            </section>
+        </div>
+
     </header>
-    <main class="container-fluid">
-        <div class="about container">
-            <h2>ABOUT US</h2>
+    <main class>
+        <div class="about bg-img2" id="about">
+            <div class="half-transparent">
+                <div class="container">
+                    <h2>ABOUT US</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea rerum sint molestias enim ipsam quo facere et quis laudantium voluptatum, illo autem culpa asperiores suscipit possimus nam natus tempora? Sint.</p>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <article>
+                                <img src="/images/about/mission.jpg" alt="" class="">
+                                <h3>Our Mission</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus dignissimos eaque in sunt, debitis velit amet fugit, incidunt at delectus sit nostrum numquam harum explicabo cupiditate vitae eligendi nihil! Similique!</p>
+                            </article>
+                        </div>
+                        <div class="col-md-6">
+                            <article>
+                                <img src="/images/about/vision.jpg" alt="" class="">
+                                <h3>Our Vision</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus dignissimos eaque in sunt, debitis velit amet fugit, incidunt at delectus sit nostrum numquam harum explicabo cupiditate vitae eligendi nihil! Similique!</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-img3 parallax"></div>
+        <div class="services container" id="services">
+            <h2>OUR SERVICES</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea rerum sint molestias enim ipsam quo facere et quis laudantium voluptatum, illo autem culpa asperiores suscipit possimus nam natus tempora? Sint.</p>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-lg-4">
                         <article>
-                            <img src="mission.jpg" alt="" class="">
-                            <h3>Our Mission</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus dignissimos eaque in sunt, debitis velit amet fugit, incidunt at delectus sit nostrum numquam harum explicabo cupiditate vitae eligendi nihil! Similique!</p>
+                            <img src="/images/services/services1.jpg" alt="an image of what we do" class="">
+                            <h3 class="">dolor sit</h3>
+                            <p class="">adipisicing elit. Ea rerum sint molestias enim ipsam quo facere et quis laudantium voluptatum, illo autem culpa asperiores suscipit possimus nam natus tempora? Sint.</p>
                         </article>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-lg-4">
                         <article>
-                            <img src="vision.jpg" alt="" class="">
-                            <h3>Our Vision</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus dignissimos eaque in sunt, debitis velit amet fugit, incidunt at delectus sit nostrum numquam harum explicabo cupiditate vitae eligendi nihil! Similique!</p>
+                            <img src="/images/services/services2.jpg" alt="an image of what we do" class="">
+                            <h3 class="">dolor sit</h3>
+                            <p class="">adipisicing elit. Ea rerum sint molestias enim ipsam quo facere et quis laudantium voluptatum, illo autem culpa asperiores suscipit possimus nam natus tempora? Sint.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article>
+                            <img src="/images/services/services3.jpg" alt="an image of what we do" class="">
+                            <h3 class="">dolor sit</h3>
+                            <p class="">adipisicing elit. Ea rerum sint molestias enim ipsam quo facere et quis laudantium voluptatum, illo autem culpa asperiores suscipit possimus nam natus tempora? Sint.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article>
+                            <img src="/images/services/services4.jpg" alt="an image of what we do" class="">
+                            <h3 class="">dolor sit</h3>
+                            <p class="">adipisicing elit. Ea rerum sint molestias enim ipsam quo facere et quis laudantium voluptatum, illo autem culpa asperiores suscipit possimus nam natus tempora? Sint.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article>
+                            <img src="/images/services/services5.jpg" alt="an image of what we do" class="">
+                            <h3 class="">dolor sit</h3>
+                            <p class="">adipisicing elit. Ea rerum sint molestias enim ipsam quo facere et quis laudantium voluptatum, illo autem culpa asperiores suscipit possimus nam natus tempora? Sint.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article>
+                            <img src="/images/services/services6.jpg" alt="an image of what we do" class="">
+                            <h3 class="">dolor sit</h3>
+                            <p class="">adipisicing elit. Ea rerum sint molestias enim ipsam quo facere et quis laudantium voluptatum, illo autem culpa asperiores suscipit possimus nam natus tempora? Sint.</p>
                         </article>
                     </div>
                 </div>
             </div>
         </div>
-        
-        <div class="services container">
-            <h2>SERVICES</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea rerum sint molestias enim ipsam quo facere et quis laudantium voluptatum, illo autem culpa asperiores suscipit possimus nam natus tempora? Sint.</p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <article>
-                            <img src="" alt="an image of what we do" class="">
-                            <h3 class="">dolor sit</h3>
-                            <p class="">adipisicing elit. Ea rerum sint molestias enim ipsam quo facere et quis laudantium voluptatum, illo autem culpa asperiores suscipit possimus nam natus tempora? Sint.</p>
-                        </article>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <article>
-                            <img src="" alt="an image of what we do" class="">
-                            <h3 class="">dolor sit</h3>
-                            <p class="">adipisicing elit. Ea rerum sint molestias enim ipsam quo facere et quis laudantium voluptatum, illo autem culpa asperiores suscipit possimus nam natus tempora? Sint.</p>
-                        </article>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <article>
-                            <img src="" alt="an image of what we do" class="">
-                            <h3 class="">dolor sit</h3>
-                            <p class="">adipisicing elit. Ea rerum sint molestias enim ipsam quo facere et quis laudantium voluptatum, illo autem culpa asperiores suscipit possimus nam natus tempora? Sint.</p>
-                        </article>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <article>
-                            <img src="" alt="an image of what we do" class="">
-                            <h3 class="">dolor sit</h3>
-                            <p class="">adipisicing elit. Ea rerum sint molestias enim ipsam quo facere et quis laudantium voluptatum, illo autem culpa asperiores suscipit possimus nam natus tempora? Sint.</p>
-                        </article>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <article>
-                            <img src="" alt="an image of what we do" class="">
-                            <h3 class="">dolor sit</h3>
-                            <p class="">adipisicing elit. Ea rerum sint molestias enim ipsam quo facere et quis laudantium voluptatum, illo autem culpa asperiores suscipit possimus nam natus tempora? Sint.</p>
-                        </article>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <article>
-                            <img src="" alt="an image of what we do" class="">
-                            <h3 class="">dolor sit</h3>
-                            <p class="">adipisicing elit. Ea rerum sint molestias enim ipsam quo facere et quis laudantium voluptatum, illo autem culpa asperiores suscipit possimus nam natus tempora? Sint.</p>
-                        </article>
-                    </div>
-                </div>
-            </div>
-                
-        </div>
-        <div class="partners container">
+        <div class="partners container" id="partners">
             <h2>OUR PARTNERS</h2>
             <div class="container">
                 <div class="row">
-                    <img src="" alt="our partner's logo" class="col-sm-3">
-                    <img src="" alt="our partner's logo" class="col-sm-3">
-                    <img src="" alt="our partner's logo" class="col-sm-3">
-                    <img src="" alt="our partner's logo" class="col-sm-3">
-                    <img src="" alt="our partner's logo" class="col-sm-3">
-                    <img src="" alt="our partner's logo" class="col-sm-3">
-                    <img src="" alt="our partner's logo" class="col-sm-3">
-                    <img src="" alt="our partner's logo" class="col-sm-3">
+                    <img src="/images/logo/logo1.jpg" alt="our partner's logo" class="col-sm-3">
+                    <img src="/images/logo/logo2.jpg" alt="our partner's logo" class="col-sm-3">
+                    <img src="/images/logo/logo3.jpg" alt="our partner's logo" class="col-sm-3">
+                    <img src="/images/logo/logo4.jpg" alt="our partner's logo" class="col-sm-3">
+                    <img src="/images/logo/logo5.jpg" alt="our partner's logo" class="col-sm-3">
+                    <img src="/images/logo/logo6.jpg" alt="our partner's logo" class="col-sm-3">
+                    <img src="/images/logo/logo7.jpg" alt="our partner's logo" class="col-sm-3">
+                    <img src="/images/logo/logo8.jpg" alt="our partner's logo" class="col-sm-3">
                 </div>
             </div>
                 
         </div>
-        <div class="testimonials container">
+        <div class="bg-img4 parallax"></div>
+        <div class="testimonials container" id="testimonials">
             <h2>TESTIMONIALS</h2>
             <div class="row">
                 <div class="col-sm-6 col-lg-4">
@@ -141,55 +195,10 @@
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam ad maxime aspernatur veritatis laborum minus optio alias repellat excepturi reprehenderit atque eligendi facere, eius exercitationem ullam impedit architecto hic ducimus.</p>
                     </div>
                 </div>
-                <!-- <div class="row collapse-section" id="testimonial-collapse">
-                    <div class="col-sm-6 col-lg-4">
-                        <div>
-                            <h4>David Navas</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam ad maxime aspernatur veritatis laborum minus optio alias repellat excepturi reprehenderit atque eligendi facere, eius exercitationem ullam impedit architecto hic ducimus.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div>
-                            <h4>Hanah Montana</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam ad maxime aspernatur veritatis laborum minus optio alias repellat excepturi reprehenderit atque eligendi facere, eius exercitationem ullam impedit architecto hic ducimus.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div>
-                            <h4>Fred Melvick</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam ad maxime aspernatur veritatis laborum minus optio alias repellat excepturi reprehenderit atque eligendi facere, eius exercitationem ullam impedit architecto hic ducimus.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div>
-                        <h3>Walters Rodrick</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam ad maxime aspernatur veritatis laborum minus optio alias repellat excepturi reprehenderit atque eligendi facere, eius exercitationem ullam impedit architecto hic ducimus.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div>
-                        <h3>Emma Stones</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam ad maxime aspernatur veritatis laborum minus optio alias repellat excepturi reprehenderit atque eligendi facere, eius exercitationem ullam impedit architecto hic ducimus.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div>
-                        <h3>River Turner</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam ad maxime aspernatur veritatis laborum minus optio alias repellat excepturi reprehenderit atque eligendi facere, eius exercitationem ullam impedit architecto hic ducimus.</p>
-                        </div>
-                    </div>
-                </div>
-                <p>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                      Link with href
-                    </a>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                      Button with data-target
-                    </button>
-                </p> -->
+                
             </div>
         </div>
-        <div class="contact container">
+        <div class="contact container" id="contact">
             <h2>CONTACT US</h2>
             <div class="row">
                 <section class="col-lg-6">
@@ -212,31 +221,29 @@
                 <section class="col-lg-6">
                     <form action="">
                         <div class="form-row">
-                          <div class="form-group col-md-6 col-lg-12">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                            <div class="validate"></div>
-                          </div>
-                          <div class="form-group col-md-6 col-lg-12">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
-                            <div class="validate"></div>
-                          </div>
+                            <div class="form-group col-md-6 col-lg-12">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group col-md-6 col-lg-12">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                                <div class="validate"></div>
+                            </div>
                         </div>
                         <div class="form-group">
-                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
-                          <div class="validate"></div>
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                            <div class="validate"></div>
                         </div>
                         <div class="form-group">
-                          <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please include a message for us" placeholder="Message"></textarea>
-                          <div class="validate"></div>
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please include a message for us" placeholder="Message"></textarea>
+                            <div class="validate"></div>
                         </div>
                         <div class="text-center"><button type="submit">Send Message</button></div>
-                      </form>
+                    </form>
                 </section>
             </div>
-           
         </div>
-    </main>
-        
+    </main>  
     <footer class="container-fluid">
         <div class="container">
             <div class="row">
@@ -276,7 +283,6 @@
                 </div>
             </div>
         </div>
-        
     </footer>
     <script src="jquery-3.5.1.min.js"></script>
     <script src="bootstrap.js"></script>
